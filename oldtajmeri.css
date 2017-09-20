@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: automobili;
+	src:url(../!BoH-b.ttf);
+}
+body{
+	font-family: automobili;
+	background: Tan;
+}
+
+header{
+	background-color: silver;
+}
+header img{
+	float: left;
+	width: 60%;
+	height: 60%;
+	margin-left: 180px;
+	
+	
+}
+header h1{
+	float: right;
+	font-size: 4em;
+	margin-right: 220px;
+	color: red;
+}
+select {
+	display: none;
+}
+
+#automobili{
+	width: 90%;
+	margin: 0 auto;
+}
+.clr{
+	clear: both;
+	margin-top:400px
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	line-height: 30px;
+	margin-right: 90px;
+	font-size: 2em;
+}
+nav ul li:first-child{
+	margin-left: 50px;
+}
+nav ul li:hover{
+	color: blue;
+	cursor: pointer;
+}
+
+atricle{
+	padding: 30px;
+}
+
+article img{
+	float:left;
+	margin-right: 20px;
+}
+article h2{
+	text-align: center;
+	font-size: 3em;
+	color: IndianRed;	
+}
+
+@font-face {
+	font-family: batman;
+	src:url(../batmfa.ttf)
+}
+article p{
+	padding: 20px;
+	font-family: batman;
+}
+}
+.cropp {
+	width: 800;
+	height: 600;
+	overflow: hidden;
+	
+}
+.cropp img{
+	position: absolute;
+    clip: rect(120px,595px,375px,85px);
+}
+
+.cena{
+	color: red;
+	font-size: 2em;
+	margin-left:200px;
+	margin-top: -300px;
+
+	
+}
+.cena span{
+	color:green;
+	font-size: 2em;
+	font-family: helvetica;
+	text-bottom; underline;
+}
+.horizontala{
+	width: 75%;
+	border-bottom: 5px solid blue;
+	box-shadow: 10px 10px 10px black;
+	margin: 80px auto;
+}
+footer{
+	height: 150px;
+	background-color: gray;
+	padding: 50px 0 0 0;
+}
+footer h1{
+	font-family: Comic sans ms;
+	color: gold;
+	font-size: 4em;
+	text-align: center;
+	text-shadow: 5px 5px black;
+	letter-spacing: 1cm;
+	
+}
+nav h1:hover{
+	color:indianred;
+	cursor: pointer;
+}
+@media(max-width:400px){
+    body{
+        width: 100%;
+    }
+    #automobili{
+        width: 100%;
+    }
+    header img{
+        display: none;
+    }
+	header {
+		background: white url('slike/Fiat-500-V6-Turbo-8.jpg.jpg') no-repeat;
+		bacground-size: 50px 50px;
+	}
+	nav ul{
+		display: none;
+	}
+	header h1{
+		font-size: 1.3em;
+		margin-right: 70px;
+	}
+	article{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	article img{
+		width:100%;
+	}
+	select{
+		display: block;
+		width: 100%;
+		background-color; beige;
+		padding-left: 300px;
+	}
+   
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
